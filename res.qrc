@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="logo">images/logo.png</file>
+        <file alias="menu">images/menu.png</file>
+        <file alias="skin">images/skin.png</file>
+        <file alias="min">images/min.png</file>
+        <file alias="max">images/max.png</file>
+        <file alias="restore">images/restore.png</file>
+        <file alias="close">images/close.png</file>
+        <file alias="prev">images/prev.png</file>
+        <file alias="next">images/next.png</file>
+        <file alias="settings">images/settings.png</file>
+        <file alias="exit">images/exit.png</file>
+    </qresource>
+    <qresource prefix="/lang">
+        <file alias="zh_CN">i18n/zh_CN.qm</file>
+    </qresource>
+</RCC>
