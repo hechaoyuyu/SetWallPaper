@@ -29,7 +29,7 @@ AWebView::AWebView(DownLoad *download, QWidget *parent)
     page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
     connect(page(), SIGNAL(linkClicked(QUrl)), this, SLOT(on_linkPage(QUrl)));
 
-    load(QUrl("http://www.83133.com/"));
+    load(QUrl("http://api.83133.com/"));
     //load(QUrl("http://www.999.com/tool"));
 }
 
